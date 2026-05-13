@@ -1,0 +1,11 @@
+# .github/metadata.yaml
+description: "UUIDs for Swift — RFC 4122 + RFC 9562 with platform CSPRNG."
+topics:
+  - foundations
+  - uuid
+  - rfc-4122
+  - rfc-9562
+  - random
+homepage: "https://swift-institute.org"
+readme:
+  family: E
