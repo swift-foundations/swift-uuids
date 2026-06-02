@@ -18,9 +18,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../../swift-ietf/swift-rfc-4122"),
-        .package(path: "../../swift-ietf/swift-rfc-9562"),
-        .package(path: "../swift-random")
+        .package(url: "https://github.com/swift-ietf/swift-rfc-4122.git", branch: "main"),
+        .package(url: "https://github.com/swift-ietf/swift-rfc-9562.git", branch: "main"),
+        .package(url: "https://github.com/swift-foundations/swift-random.git", branch: "main")
     ],
     targets: [
         .target(
