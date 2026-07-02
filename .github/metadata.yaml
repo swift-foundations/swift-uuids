@@ -1,5 +1,5 @@
 # .github/metadata.yaml
-description: "UUIDs for Swift — RFC 4122 + RFC 9562 with platform CSPRNG."
+description: "Typed UUID generation (v3/v4/v5/v7/v8) per RFC 4122 and RFC 9562, bound to the platform CSPRNG for Swift."
 topics:
   - foundations
   - uuid
