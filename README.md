@@ -32,7 +32,7 @@ Add the package to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-uuids.git", from: "0.1.0")
+    .package(url: "https://github.com/swift-foundations/swift-uuids.git", branch: "main")
 ],
 targets: [
     .target(
@@ -43,6 +43,8 @@ targets: [
     )
 ]
 ```
+
+> Pre-1.0: no version tags yet. APIs may change; pin a commit for reproducible builds.
 
 ## License
 
