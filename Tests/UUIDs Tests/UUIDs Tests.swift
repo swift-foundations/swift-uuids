@@ -7,7 +7,7 @@ import Testing
 extension UUIDs {
     enum Test {
         @Suite struct Unit {}
-        @Suite struct EdgeCase {}
+        @Suite struct `Edge Case` {}
     }
 }
 
@@ -90,7 +90,7 @@ extension UUIDs.Test.Unit {
 
 // MARK: - Edge Cases
 
-extension UUIDs.Test.EdgeCase {
+extension UUIDs.Test.`Edge Case` {
     @Test
     func `v7(unixMilliseconds:) accepts the 48-bit maximum`() throws {
         let max48: Int64 = 0xFFFF_FFFF_FFFF
