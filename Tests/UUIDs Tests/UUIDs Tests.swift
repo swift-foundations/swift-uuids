@@ -12,7 +12,7 @@ extension UUIDs {
 }
 
 // Test namespace for organizing UUIDs tests.
-public enum UUIDs {}
+enum UUIDs {}
 
 // MARK: - Unit Tests — v4
 
